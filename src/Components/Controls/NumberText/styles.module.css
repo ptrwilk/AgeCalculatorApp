@@ -1,0 +1,36 @@
+@import url('../../../colors.css');
+
+.container{
+    display: flex;
+}
+
+.container .text,
+.container .number{
+    font-size: 55px;
+    font-weight: 800;
+    font-style: italic;
+    line-height: 1.1;
+}
+
+.container .number{
+    color: var(--purple);
+}
+
+.container .text{
+    margin-left: .5rem;
+    color: var(--offblack);
+}
+
+@media (min-width : 475px) {
+    .container .text,
+    .container .number{
+        font-size: 65px;
+    }
+}
+
+@media (min-width : 550px) {
+    .container .text,
+    .container .number{
+        font-size: 70px;
+    }
+}

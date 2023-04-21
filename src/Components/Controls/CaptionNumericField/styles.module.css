@@ -1,0 +1,17 @@
+@import url('../../../colors.css');
+
+.container{
+}
+
+.container .caption{
+    margin-bottom: 0.2rem;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: var(--smokeygrey);
+}
+
+.container .caption-error{
+    color: var(--lightred);
+}

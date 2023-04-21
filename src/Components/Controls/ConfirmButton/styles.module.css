@@ -1,0 +1,30 @@
+@import url('../../../colors.css');
+
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container hr{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    background: var(--lightgrey);
+}
+
+.container .btn{
+    width: 65px;
+    height: 65px;
+    padding: 1.1rem;
+    background: var(--purple);
+}
+
+.container .btn:hover{
+    background: hsl(259, 100%, 60%);
+}
+
+.container .btn:active{
+    background: var(--offblack);
+}
